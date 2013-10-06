@@ -69,6 +69,9 @@ function getReports()
             reports = $.parseJSON(data);
             console.log('Got reports:');
             console.log(reports);
+            
+            //Remove current markers, add markers from new reports
+            $('#map_canvas').gmap('clear', 'markers');
             $.each(reports, function(i, report) 
             {
                 //Determine color of pin: saturated -> pale ~= later -> earlier
