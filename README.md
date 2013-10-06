@@ -1,3 +1,6 @@
+Demo browser version here: http://166.78.151.18/CFLocator
+
+
 CFLocator
 =========
 
@@ -9,3 +12,4 @@ Proximity app that alerts CF users if another one is nearby
 - web service to interact with if no available phone device
 - pollution heatmap (secondary feature)
 - data api for research (feature)
+
